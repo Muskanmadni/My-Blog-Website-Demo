@@ -12,5 +12,5 @@ export default function ReadMore(){
                 </p>
         </div>
         </div>
-    )
+    );
 }

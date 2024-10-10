@@ -11,5 +11,5 @@ export default function About(){
                 sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
             </div>
         </div>
-    )
+    );
 } 
