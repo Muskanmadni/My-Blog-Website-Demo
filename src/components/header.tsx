@@ -17,11 +17,8 @@ export function Header(){
               <Link href={"/Contact-us"}>
               <li>Contact-us</li>
               </Link>
-
-              <div className="Search-button"><input className="searchButton" type="search" placeholder="Search"/></div>
             </ul>
           </div>
-          {/* <div className="Main-heading">Welcome</div> */}
         </div>
 
     )
