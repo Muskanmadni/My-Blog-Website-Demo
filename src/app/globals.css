@@ -106,9 +106,10 @@
   display: flex;
   background-color:thistle;
   position: absolute;
-  left: 0;
   bottom: 0;
-  right: 0;
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
 }
 .Main-heading{
   justify-content: center;
@@ -134,13 +135,6 @@
   display: flex;
   font-size: 20px;
 
-}
-.Search-button{
-  padding-left: 250px;
-  justify-content: right;
-  display: flex;
-  width: 200px;
-  height: 30px;
 }
 .form-details{
 
@@ -184,14 +178,6 @@ input[type="submit"]{
   font-family:serif;
 }
 
-.list-button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
 
 .list {
   list-style: none;
@@ -206,17 +192,6 @@ input[type="submit"]{
 
 @media only screen and (max-width: 450px) {
   .childContainer {
-    width: 90%;
-  }
-}
-@media only screen and (max-width: 599px) {
-  .Search-button {
-    width: 60%;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .Search-button{
     width: 90%;
   }
 }
@@ -236,10 +211,18 @@ input[type="submit"]{
     width: 60%;
   }
 }
-
+/* 
 @media only screen and (max-width: 450px) {
   .footer {
     width: 90%;
+  }
+} */
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90px;
   }
 }
 
